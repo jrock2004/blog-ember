@@ -4,7 +4,18 @@ const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 module.exports = function (defaults) {
   let app = new EmberApp(defaults, {
-    // Add options here
+    fingerprint: {
+      extensions: ['js', 'css', 'map'],
+    },
+    'responsive-image': {
+      sourceDir: 'images',
+      destinationDir: 'responsive-images',
+      quality: 80,
+      supportedWidths: [2000, 1000, 600, 300],
+      removeSourceDir: false,
+      justCopy: false,
+      extensions: ['jpg', 'jpeg', 'png', 'gif'],
+    },
   });
 
   // Use `app.import` to add additional libraries to the generated

@@ -6,6 +6,7 @@ module.exports = function (environment) {
     environment,
     rootURL: '/',
     locationType: 'auto',
+
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
@@ -20,6 +21,27 @@ module.exports = function (environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+    },
+
+    blog: {
+      title: 'JC Web Concepts',
+      description: 'Custom Web Development',
+      logo: '/images/logo.png',
+      rssLogo: '/images/logo.png',
+      coverImage: '/images/blog-cover.jpg',
+      twitter: 'jroc2004',
+
+      navigation: [
+        {
+          label: 'Home',
+          route: 'index',
+        },
+        {
+          label: 'Usage',
+          route: 'page',
+          id: 'what-i-use',
+        },
+      ],
     },
   };
 
