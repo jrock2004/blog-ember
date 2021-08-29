@@ -67,6 +67,7 @@ module.exports = function (environment) {
 
   if (environment === 'production') {
     // here you can enable a production-specific feature
+    ENV.blog.host = 'https://jcwebconcepts.net';
   }
 
   return ENV;
