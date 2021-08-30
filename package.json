@@ -66,7 +66,8 @@
     "prember": "^1.0.5",
     "prettier": "^2.3.2",
     "qunit": "^2.16.0",
-    "qunit-dom": "^1.6.0"
+    "qunit-dom": "^1.6.0",
+    "webpack": "^5.51.1"
   },
   "engines": {
     "node": "12.* || 14.* || >= 16"
