@@ -6834,10 +6834,10 @@ empress-blog-ghost-helpers@^1.0.0:
     lodash "^4.17.19"
     moment "^2.27.0"
 
-empress-blog@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/empress-blog/-/empress-blog-3.3.0.tgz#4cc328bf6b0106b483764a847a1acfa0e30cc517"
-  integrity sha512-4xCFi8NZg7cYE1M+/yxnkl4+FCISFpVLiXfzp9b46B3xBvLE0Ts+oBtgsyJ7WHIIbHpr1jZHDq84R1BRuHVrwA==
+empress-blog@^3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/empress-blog/-/empress-blog-3.4.0.tgz#447384eb43db41112ff3cec4b8e83b0b7d253ba5"
+  integrity sha512-6m2c0GT6PNUFzeVJkeJ3yUtTUrCq/9VKsdri1crpF61tXAX/VcK1EKEdQRfOeYVe+doFzhujTShDdvdsr2uzhw==
   dependencies:
     broccoli-funnel "^3.0.3"
     broccoli-merge-trees "^4.2.0"
