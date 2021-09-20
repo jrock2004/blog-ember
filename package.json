@@ -53,7 +53,7 @@
     "ember-source": "~3.28.1",
     "ember-template-lint": "^3.7.0",
     "empress-blog": "^3.4.0",
-    "empress-blog-casper-template": "^4.0.1",
+    "empress-blog-casper-template": "^4.0.3",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-ember": "^10.5.4",
