@@ -6642,10 +6642,10 @@ ember-resolver@^8.0.2:
     ember-cli-version-checker "^5.1.1"
     resolve "^1.17.0"
 
-ember-responsive-image@^3.0.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/ember-responsive-image/-/ember-responsive-image-3.1.0.tgz#b1a15ef207bfd3895e620ac613585b6beee5513e"
-  integrity sha512-lv7LFNI1HsN/wgW8aRXlGRjhORhvQo0vLT88z+db1Ya3nQxaBj6h5lR3YdAzGh+K3rPcrD2C49PTmVb9ebADIQ==
+ember-responsive-image@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/ember-responsive-image/-/ember-responsive-image-3.1.1.tgz#230879d13f12b220920504003c9791831e9264fd"
+  integrity sha512-mX0b4L/xlgZWoF6KYD33hu+juLsUyhE8Hg+wiPst3YJCEZj+HfXUJQ4rtnh6EXHkSypuTWMSsBizeMvetqhsAQ==
   dependencies:
     "@ember/render-modifiers" "^1.0.2"
     "@embroider/macros" "^0.42.3"
@@ -6803,10 +6803,10 @@ emojis-list@^3.0.0:
   resolved "https://registry.yarnpkg.com/emojis-list/-/emojis-list-3.0.0.tgz#5570662046ad29e2e916e71aae260abdff4f6a78"
   integrity sha512-/kyM18EfinwXZbno9FyUGeFh87KC8HRQBQGildHZbEuRyWFOmv1U10o9BBp8XVZDVNNuQKyIGIu5ZYAAXJ0V2Q==
 
-empress-blog-casper-template@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/empress-blog-casper-template/-/empress-blog-casper-template-4.0.1.tgz#e4e2a044c2692ed38b6655b2f3a0d980828243dc"
-  integrity sha512-bT6DoPgnqANLeHwpuq6S+nSNbCl1L8eED87qzwragGN43aLXgcdqEE2AeT4BdumR0+r+NLmn/dcjozNSvXcTbA==
+empress-blog-casper-template@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/empress-blog-casper-template/-/empress-blog-casper-template-4.0.2.tgz#b5ae35ab33bc21010ba08af8ce86e29b1357489b"
+  integrity sha512-rn3l+sWhNgpLg4IBIf8GhEe9EAXu7GM2nfyQbstG0Mo7xrJl8lj1Qtc+/HicLZDQzWS002Yr7wJ0yk4aoKDKRQ==
   dependencies:
     autoprefixer "^9.8.0"
     cssnano "^4.1.10"
@@ -6814,7 +6814,7 @@ empress-blog-casper-template@^4.0.1:
     ember-cli-htmlbars "^5.7.1"
     ember-cli-postcss "^6.0.1"
     ember-composable-helpers "^4.1.1"
-    ember-responsive-image "^3.0.0"
+    ember-responsive-image "^3.1.1"
     empress-blog-ghost-helpers "^1.0.0"
     empress-blueprint-helpers "^1.2.1"
     postcss-color-function "^4.1.0"
