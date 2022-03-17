@@ -6515,6 +6515,15 @@ ember-get-config@^0.3.0:
     broccoli-file-creator "^1.1.1"
     ember-cli-babel "^7.0.0"
 
+ember-get-config@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/ember-get-config/-/ember-get-config-0.5.0.tgz#8195f3e4c0ff0742182c81ae54aad78d07a24bcf"
+  integrity sha512-y1osD6g8wV/BlDjuaN6OG5MT0iHY2X/yE38gUj/05uUIMIRfpcwOdWnFQHBiXIhDojvAJQTEF1VOYFIETQMkeQ==
+  dependencies:
+    broccoli-file-creator "^1.1.1"
+    ember-cli-babel "^7.26.6"
+    ember-cli-htmlbars "^5.7.1"
+
 ember-getowner-polyfill@^2.0.1:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/ember-getowner-polyfill/-/ember-getowner-polyfill-2.2.0.tgz#38e7dccbcac69d5ec694000329ec0b2be651d2b2"
@@ -6787,10 +6796,10 @@ emojis-list@^3.0.0:
   resolved "https://registry.yarnpkg.com/emojis-list/-/emojis-list-3.0.0.tgz#5570662046ad29e2e916e71aae260abdff4f6a78"
   integrity sha512-/kyM18EfinwXZbno9FyUGeFh87KC8HRQBQGildHZbEuRyWFOmv1U10o9BBp8XVZDVNNuQKyIGIu5ZYAAXJ0V2Q==
 
-empress-blog-casper-template@^4.0.3:
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/empress-blog-casper-template/-/empress-blog-casper-template-4.0.3.tgz#11413a790184917fa76a10574f96c978b4f75022"
-  integrity sha512-w7Or+Aa6NPwLxN662qCEh+XBZEzawabkIk1jiNpud7fmaYVHZQJcqzB/JwGR927sw1lU2ug2W5/Vr+2aDRfCyA==
+empress-blog-casper-template@^4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/empress-blog-casper-template/-/empress-blog-casper-template-4.3.0.tgz#62d9e03e7b1f0b7c041d4f672f958bd1140fdf52"
+  integrity sha512-TS3I1+Y5moEScfhZuPMcW4Ha1Hp9A1JZc/84jcoHL9XZfAlKB4tGbd38N5dtJnZ3GhF38xvikAy56bC50D1R/w==
   dependencies:
     autoprefixer "^9.8.0"
     cssnano "^4.1.10"
@@ -6799,21 +6808,21 @@ empress-blog-casper-template@^4.0.3:
     ember-cli-postcss "^6.0.1"
     ember-composable-helpers "^4.1.1"
     ember-responsive-image "^3.1.1"
-    empress-blog-ghost-helpers "^1.1.0"
+    empress-blog-ghost-helpers "^1.2.0"
     empress-blueprint-helpers "^1.2.1"
     postcss-color-function "^4.1.0"
     postcss-custom-properties "^9.1.1"
     postcss-easy-import "^3.0.0"
 
-empress-blog-ghost-helpers@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/empress-blog-ghost-helpers/-/empress-blog-ghost-helpers-1.1.0.tgz#528ddec3be2365e37bbdf24c77d66171022bbc2d"
-  integrity sha512-KxW8WV0CkvqiiZYKwU7zBnhI5oe2IKlb7/wDrHwiWsv2lddfwQJXVvKkrDv47yxXb+V7aTsEtyREmbElxpdhcg==
+empress-blog-ghost-helpers@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/empress-blog-ghost-helpers/-/empress-blog-ghost-helpers-1.2.0.tgz#388622f2f7c072ca3702b759fa32499760eeea89"
+  integrity sha512-fTBY7LCWFgyK3cF2W1oMzJLmz2v7LHVZ0HFaA66XWjQYaf7CbrDPBfPSz/lPwXeodlAsLyMiWotT7regUKAFbw==
   dependencies:
     ember-auto-import "^1.6.0"
     ember-cli-babel "^7.21.0"
     ember-cli-htmlbars "^5.2.0"
-    ember-get-config "^0.2.4"
+    ember-get-config "^0.5.0"
     lodash "^4.17.19"
     moment "^2.27.0"
 
@@ -7033,10 +7042,10 @@ escodegen@^2.0.0:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-config-prettier@^8.3.0:
-  version "8.3.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.3.0.tgz#f7471b20b6fe8a9a9254cc684454202886a2dd7a"
-  integrity sha512-BgZuLUSeKzvlL/VUjx/Yb787VQ26RU3gGjA3iiFvdsp/2bMfVIWUVP7tjxtjS0e+HP409cPlPvNkQloz8C91ew==
+eslint-config-prettier@^8.5.0:
+  version "8.5.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.5.0.tgz#5a81680ec934beca02c7b1a61cf8ca34b66feab1"
+  integrity sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==
 
 eslint-plugin-ember@^10.5.7:
   version "10.5.7"
@@ -7079,10 +7088,10 @@ eslint-plugin-prettier@^4.0.0:
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
-eslint-plugin-qunit@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-qunit/-/eslint-plugin-qunit-7.0.0.tgz#a782fafe930820f6b62880958ebc3e93de462f02"
-  integrity sha512-yPh02tbQoZK43voIfJFO9CUN5Q6j8ebfrnxEqPr7I4UiYln4RWKDQ4ajaHgV3gJKSAUZwymJ0DsB/YH6btRxIQ==
+eslint-plugin-qunit@^7.2.0:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-qunit/-/eslint-plugin-qunit-7.2.0.tgz#ad00e0007dc0bbd1d59309cc6388238b6a8784a3"
+  integrity sha512-ebT6aOpmMj4vchG0hVw9Ukbutk/lgywrc8gc9w9hH2/4WjKqwMlyM7iVwqB7OAXv6gtQMJZuziT0wNjjymAuWA==
   dependencies:
     eslint-utils "^3.0.0"
     requireindex "^1.2.0"
